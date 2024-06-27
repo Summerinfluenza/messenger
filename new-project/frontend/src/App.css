@@ -1,0 +1,214 @@
+.mainContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  font-size: 64px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 64px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.inputContainer>.errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.buttonContainer>.errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+.inputBox {
+  height: 48px;
+  width: 400px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
+
+
+
+/*---------USER INFO---------*/
+.userinfoContainer {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.userinfoContainer {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.userinfoContainer p {
+  margin: 8px 0;
+}
+
+.userinfoContainer p:first-child {
+  font-weight: bold;
+}
+
+.userinfoContainer p:last-child {
+  margin-bottom: 0;
+}
+
+
+.interactionContainer {
+  display: flex;
+  flex-direction: row;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+
+/*---------SEARCH---------*/
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+}
+
+/*---------USERCARD---------*/
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.userCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 260px;
+  border: 1px solid grey;
+  margin: 8px;
+}
+
+/*---------friendList---------*/
+.friendListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid #cccccc;
+  /* Light gray border */
+  border-radius: 8px;
+  /* Rounded corners */
+  padding: 12px;
+  background-color: #ffffff;
+  /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Soft shadow */
+  margin: 8px;
+  max-width: 400px;
+  /* Adjust maximum width as needed */
+}
+
+/*---------CHAT---------*/
+.chatContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* Ensure container takes full height of parent */
+  padding: 16px;
+  /* Add padding for spacing */
+  background-color: #f0f0f0;
+  /* Light background color */
+}
+
+/* Individual ChatBox styling */
+.chatBoxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* Align items to the start of container */
+  width: 100%;
+  /* Full width */
+  max-width: 600px;
+  /* Limit maximum width */
+  padding: 12px;
+  background-color: #ffffff;
+  /* White background */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Soft shadow */
+  margin-bottom: 16px;
+  /* Bottom margin between ChatBox containers */
+}
+
+.miniProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #ffffff;
+  border: 2px solid #000;
+  box-shadow: 24px;
+  padding: 16px;
+}

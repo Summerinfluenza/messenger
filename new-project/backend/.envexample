@@ -1,0 +1,10 @@
+# Port for backend
+PORT=5000
+# Port for test
+TESTPORT=5555
+# Userinfo mongodb
+DBHOST=localhost
+DBNAME=messenger
+DBUSERNAME=YOURUSERNAME
+DBPASSWORD=YOURPASSWORD
+JWT_KEY=messenger
